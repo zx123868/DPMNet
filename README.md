@@ -13,11 +13,7 @@
 
 The code is stable while using Python 3.6.13, CUDA >=10.1
 
-- Clone this repository:
-```bash
-git clone https://github.com/jeya-maria-jose/DPMNet-pytorch
-cd DPMNet-pytorch
-```
+
 
 To install all the dependencies using conda:
 
@@ -77,16 +73,3 @@ python train.py --dataset <dataset name> --arch DPMNet --name <exp name> --img_e
 python val.py --name <exp name>
 ```
 
-### Acknowledgements:
-
-This code-base uses certain code-blocks and helper functions from [UNet++](https://github.com/4uiiurz1/pytorch-nested-unet), [Segformer](https://github.com/NVlabs/SegFormer), and [AS-MLP](https://github.com/svip-lab/AS-MLP). Naming credits to [Poojan](https://scholar.google.co.in/citations?user=9dhBHuAAAAAJ&hl=en).
-
-### Citation:
-```
-@article{valanarasu2022DPMNet,
-  title={DPMNet: MLP-based Rapid Medical Image Segmentation Network},
-  author={Valanarasu, Jeya Maria Jose and Patel, Vishal M},
-  journal={arXiv preprint arXiv:2203.04967},
-  year={2022}
-}
-```
