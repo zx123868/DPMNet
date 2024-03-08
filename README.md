@@ -4,10 +4,7 @@
 
 ## Introduction
 
-<p align="center">
-  <img src="imgs/DPMNet.png" width="800"/>
-</p>
-
+MLP−based networks, while being lighter than traditional convolution− and transformer−based networks commonly used in medical image segmentation, often struggle with capturing local structures due to the limitations of fully−connected (FC) layers, making them less ideal for such tasks. To address this issue, we design a Dual−Path MLP−based network (DPMNet) that includes a global and a local branch to understand the input images at different scales. In the two branches, we design an Axial Residual Connection MLP module (ARC−MLP) to combine it with CNNs to capture the input image’s global long−range dependencies and local visual structures simultaneously. Additionally, we propose a Shifted Channel−Mixer MLP block (SCM−MLP) across width and height as a key component of ARC−MLP to mix information from different spatial locations and channels. Extensive experiments demonstrate that the DPMNet significantly outperforms seven state−of−the−art convolution− , transformer−, and MLP−based methods in both Dice and IoU scores, where the Dice and IoU scores for the IAS−L dataset are 88.98% and 80.31% respectively. Code is available at https://anonymous.4open.science/r/DPMNet-1DB6.
 
 ## Using the code:
 
